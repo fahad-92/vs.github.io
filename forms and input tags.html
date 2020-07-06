@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+</head>
+
+<body>
+    <h2>My Form</h2>
+    <form action="backend.php">
+
+        <label for="name">Name</label>
+        <div> <input type="text" id="name" name="myname"></div><br>
+
+        <label for="role">Role</label>
+        <div>
+            <input type="text" name="myrole" id="role">
+        </div><br>
+
+        <label for="email">Email</label>
+        <div>
+            <input type="email" name="myemail" id="email">
+        </div><br>
+
+        <label for="date">Date</label>
+        <div>
+            <input type="date" name="mydate" id="date">
+        </div><br>
+
+        <label for="bounce">Bounce</label>
+        <div>
+            <input type="number" name="" id="bounce">
+        </div><br>
+
+        <label for="checkbox">Eligibile</label>
+        <div>
+            <input type="checkbox" name="" id="checkbox" checked>
+        </div><br>
+
+        <label for="a">Gender</label>
+        <div>
+            Male <input type="radio" male name="gender" id="a"> FeMale <input type="radio" male name="gender" id="a">
+            Other
+            <input type="radio" male name="gender" id="a">
+        </div><br>
+
+        <label for="write">Write</label>
+        <div>
+            <textarea name="mytext" id="write" cols="30" rows="10"
+                placeholder="Write here something about you"></textarea>
+        </div>
+
+        <label for="car">Car</label>
+        <div>
+            <select name="mycar" id="car">
+                <option value="audi">Audi</option>
+                <option value="mehran">Mehran</option>
+            </select>
+        </div><br>
+
+        <div>
+            <input type="submit" name="reset" id="submit">
+            <input type="reset" name="reset" id="reset">
+        </div>
+    </form>
+
+
+</body>
+
+</html>
