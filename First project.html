@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image: url(img.jpg);
+            /* height: 45678px; just for testing */
+            color: white;
+            font-family: 'Baloo Bhai', cursive;
+            
+        }
+        .left{
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 33px;
+            top: 10px;
+            
+            
+            
+        }
+        .left span{
+            text-align: center;
+            line-height: 0px;
+            
+            
+        }
+
+
+        .left img{
+            display: block;
+            margin: 3px auto;            
+            width: 80px;
+            filter: invert(100%);
+        }
+
+        .mid{
+            display: block;
+            width: 40%;
+            margin: 15px auto;
+            /* border: 2px solid green; */
+            
+            
+
+        }
+        .navbar{
+            
+            
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+            
+            
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+
+            
+           
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: yellowgreen;
+
+        }
+
+        .right{
+            display: inline-block;
+            position: absolute;
+            right: 33px;
+            top: 22px;
+            /* border: 2px solid yellowgreen */
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            border-radius: 7px;
+            padding: 4px 14px;
+            font-size: 15px;
+            font-family: 'Baloo Bhai', cursive;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: white;
+            color: black;
+            
+        }
+        .container{
+            /* border: 2px solid red; */
+            padding: 75px 75px;
+            margin: 100px 80px;
+            width: 33%;
+        }
+        .container h1{
+            text-align: center;
+        }
+       
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 300px;
+            margin: 5px auto;
+            padding: 4px 19px;
+            border-radius: 10px;
+            border-color:white;
+        }
+        .container button{
+            display: block;
+            width: 120px;
+            margin: 20px auto;
+            padding: 10px 6px;
+        }
+        .name{
+            text-align: center;
+        }
+        
+        
+    
+    </style>
+</head>
+<body>
+    <header>
+        <!-- logo area -->
+        <div class="left">
+            <img src="logo.png" alt="">
+            <span>Fahad Fitness</span>
+        </div>
+        <!-- navbar area  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class=active>Home</a></li>
+                <li><a href="">Fitness</a></li>
+                <li><a href="">About Us</a> </li>
+                <li><a href="">Contact Us</a> </li>
+            </ul>
+        </div>
+        <!-- btn area  -->
+        <div class="right">
+            <button class="btn">Email Us</button><button class="btn">Contact Us</button>
+        </div>
+        
+    </header>
+    <div class="container">
+        <h1>Join the best GYM of LHR</h1>
+        <form action="noacion.php">
+        <div class="name">Name</div>
+            <div class="form-group">
+                
+                <input type="text" name="" id="">
+            </div>
+            <div class="name">Last Name</div>
+            <div class="form-group">
+                <input type="text" name="" id="">
+            </div>
+            <div class="name">email</div>
+            <div class="form-group">
+                <input type="email" name="" id="">
+            </div>
+            <div class="name">Password</div>
+            <div class="form-group">
+                <input type="password" name="" id="">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+   
+    
+</body>
+</html>

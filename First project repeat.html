@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            background-image: url(img.jpg);
+           color: white;
+        }
+        .right{
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+        }
+
+        .right img{
+            display: block;
+            width: 150px;
+            left: 20px;
+            margin: 2px auto;
+            filter: invert(100%);
+            position: absolute;
+            top: -50px;
+        }
+
+        .fahad{
+           
+            display: block;
+            margin: 2px auto;
+            position: absolute;
+            width: 200px;
+            top: 70px;
+            text-align: center;
+            line-height: 7px;
+            font-size: 25px;
+        }
+            
+
+
+
+        .mid{
+            /* border: 2px solid green; */
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+
+        }
+        .navbar ul{
+            
+            display: inline-block;
+
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 18px;
+
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 19px;
+            
+        }
+        .navbar li a:hover, .navbar li a.active{
+            color: aqua;
+            text-decoration: underline;
+        }
+
+        .left{
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+
+        }
+        .btn{
+            color: white;
+            text-decoration-color: white;
+            border-radius: 8px;
+            padding: 8px 9px;
+            margin: 4px auto;
+            background-color: black;
+            
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: white;
+            color: black;
+        }
+
+        .container{
+            /* border: 2px solid red; */
+            padding: 80px 80px;
+            position: absolute;
+            margin: 20px auto;
+            display: blocks;
+            left: 100px;
+            text-align: center;
+            
+            
+        }
+        .form-group input{
+            border-radius: 10px;
+            margin: 20px;
+            width: 400px;
+            height: 30px;
+            
+        }
+        .container button{
+            width: 400px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <div class="right">
+        <img src="logo.png" alt="">
+        <div class="fahad">Fahad Fitness</div>
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="#">Fitness</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contct Us</a></li>
+        </ul>
+    </div>
+    <div class="left">
+        <button class="btn">
+            Email Us
+        </button>
+        <button class="btn">
+            Contact Us
+        </button>
+    </div>
+</header>
+
+<div class="container">
+    <h1>Best GYM of the LHR</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" id="">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" id="">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" id="">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" id="">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+</div>
+    
+</body>
+</html>
