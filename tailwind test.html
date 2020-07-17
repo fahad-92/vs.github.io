@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: white;
+        }
+        .header{
+            background-color: rgb(60, 134, 218);
+            /* border: 2px solid red; */
+            height: 70px;
+        }
+        
+        
+        .left{
+            display: inline-block;
+            /* border: 2px solid red; */
+            margin: 2px;
+            padding: 2px;
+            position: absolute;
+            left: 100px;
+            
+        }
+        img{
+            width: 50px;
+            
+        }
+        .right{
+            /* border: 2px solid red; */
+            margin: 2px;
+            padding: 2px;
+            display: inline-block;
+            position: absolute;
+            width: 500px;
+            right: 30px;
+            
+        }
+        .text{
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 160px;
+            top: 30px;
+            
+        }
+        .right ul{
+            display: inline-block;
+            
+
+        }
+        .right li{
+            display: inline-block;
+            text-decoration: none;
+            padding: 1px;
+            
+        }
+        .btn{
+            position: absolute;
+            right: 100px;
+            top: 28px;
+            cursor: pointer;
+            background-color: rgba(94, 84, 84, 0.199);
+            border-radius: 5px;
+            width: 70px;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <img src="images/circle.png" alt="">
+        </div>
+        <div class="text">Tailwind</div>
+        <div class="right">
+            <ul>
+                <li>First Link</li>
+                <li>Second Link</li>
+                <li>Third Link</li>
+                <li>Fourth Link</li>
+            </ul>
+        </div>
+        <button class="btn">Button </button>
+ 
+    </div>
+</body>
+</html>
