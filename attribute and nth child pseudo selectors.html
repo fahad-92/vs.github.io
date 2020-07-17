@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute & nth child pseudo Selectors</title>
+    <style>
+        input{
+            display: block;
+            width: 300px;
+            margin: 20px auto;
+            padding: 5px;
+            
+        }
+        input[type=text]{
+            background-color: teal;
+        }
+        h1{
+            text-align: center;
+        }
+        a[target]{
+            color: teal;
+        }
+        a[target='_self']{
+            color: thistle;
+        }
+        li:nth-child(3){
+            color: tomato;
+        }
+        li:nth-child(2n+0){
+            color: teal;
+        }
+
+        li:nth-child(odd){
+            background-color: turquoise;
+
+        }
+
+        li:nth-child(even){
+            background-color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="http://google.com" target="_blank">Go to Goole Attribute & nth child pseudo Selectors</h1>
+    </a>
+    <h1><a href="http://google.com" target="_self">Go to Goole Attribute & nth child pseudo Selectors</h1>
+    </a>
+
+
+    <form action="noaction.php">
+        <input type="text" name="Enter your name" id="">
+        <input type="password">
+        <input type="submit" value="submit">
+    </form>
+
+    <ul>
+        <li id="item1">nth child pseudo Selectors</li>
+        <li id="item2">nth child pseudo Selectors</li>
+        <li id="item3">nth child pseudo Selectors</li>
+        <li id="item4">nth child pseudo Selectors</li>
+        <li id="item5">nth child pseudo Selectors</li>
+        <li id="item6">nth child pseudo Selectors</li>
+        <li id="item7">nth child pseudo Selectors</li>
+        <li id="item8">nth child pseudo Selectors</li>
+        <li id="item9">nth child pseudo Selectors</li>
+        <li id="item10">nth child pseudo Selectors</li>
+    </ul>
+   
+</body>
+</html>
