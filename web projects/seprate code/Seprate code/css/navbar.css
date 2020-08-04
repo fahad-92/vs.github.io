@@ -1,0 +1,66 @@
+/* CSS RESET  */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Navigation Bar  */
+
+#navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    position: sticky;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* Navigation Bar: Logo and Image  */
+
+#logo{
+    margin: 10px 34px;
+
+}
+
+#logo img{
+    margin: 3px 6px;
+    height: 59px;
+
+}
+
+/* Navigation Bar: List Styling  */
+    #navbar ul{
+        display: flex;
+        font-family: 'Baloo Bhai 2', cursive;
+
+        
+    }
+
+  
+    #navbar ul li{
+        /* color: white; */
+        list-style: none;
+        font-size: 1.3rem;
+    }
+
+    #navbar ul li a{
+        display: block;
+        padding: 9px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    #navbar ul li a:hover{
+       color: black;
+       background-color: white;
+    }

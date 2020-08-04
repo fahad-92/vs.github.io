@@ -1,0 +1,75 @@
+/* CSS Reset  */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ /* Services Section  */
+
+ #services{
+    display: flex;
+    margin: 34px;
+
+
+}
+#services .box{
+    border: 2px solid brown;
+    margin: 25px 6px;
+    padding: 34px;
+    border-radius: 23px;
+    background-color: blanchedalmond;
+}
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+}
+
+ /* Utility Class  */
+ .h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+.h-secondary{
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.form-button{
+    display: flex;
+    margin: auto;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 25px;
+    background-color: brown;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+
+
+    
+    
+
+}
+.center{
+    text-align: center;
+  
+}
